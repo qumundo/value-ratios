@@ -1,6 +1,6 @@
 {
   "name": "@qumundo/value-ratios",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Value-based enterprise performance determination of listed and unlisted companies based on an input-based API calculation engine.",
   "homepage": "https://www.qumundo.com/api/value-ratios-api",
   "author": {
@@ -42,6 +42,8 @@
     "legal entities",
     "companies",
     "calculator",
-    "API"
+    "API",
+    "data",
+    "data service"
   ]
 }
