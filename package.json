@@ -1,0 +1,47 @@
+{
+  "name": "@qumundo/value-ratios",
+  "version": "1.0.0",
+  "description": "Value-based enterprise performance determination of listed and unlisted companies based on an input-based API calculation engine.",
+  "homepage": "https://github.com/qumundo/value-ratios",
+  "author": {
+    "name": "Qumundo e.K.",
+    "email": "dev@qumundo.com",
+    "url": "https://www.qumundo.com"
+  },
+  "license": "COPYRIGHT © 2025, Qumundo e.K.. All rights reserved.",
+  "licenses": [
+    {
+      "type": "Copyright © 2025, Qumundo e.K.. All rights reserved.",
+      "url": "https://github.com/qumundo/value-ratios/blob/master/LICENSE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/qumundo/value-ratios.git"
+  },
+  "bugs": {
+    "url": "https://github.com/qumundo/value-ratios/issues"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "value",
+    "ratios",
+    "value ratios",
+    "value added",
+    "wacc",
+    "weighted average cost of capital",
+    "valuation",
+    "capital markets",
+    "performance",
+    "legal entities",
+    "companies",
+    "calculator",
+    "API"
+  ]
+}

@@ -1,0 +1,120 @@
+{
+	"POST": {
+		"data": [
+      {
+        "id": "",
+        "id_type": "",
+        "legal_entity": "Company X",
+        "sector": "",
+        "sub_sector": "",
+        "fiscal_year": 2020,
+        "date": "2020-12-31",
+        "currency": "EUR",
+        "balance_sheet": {
+          "non_current_liabilities": 83175000000,
+          "deferred_tax_liabilities": 509000000,
+          "other_current_financial_liabilities": 38986000000,
+          "equity": 61520000000
+        },
+        "balance_sheet_prev": {
+          "non_current_liabilities": 85502000000,
+          "deferred_tax_liabilities": 632000000,
+          "other_current_financial_liabilities": 46093000000,
+          "equity": 59907000000
+        },
+        "finance_income": 116000000,
+        "finance_costs": 458000000,
+        "income_tax_expense_continuing_operations": 1365000000,
+        "profit_loss": 3857000000,
+        "wacc": 0.033013,
+        "wacc_equity": null,
+        "weighted_average_shares": 658862400,
+        "share_price": 72.33
+      },
+      {
+        "id": "",
+        "id_type": "",
+        "legal_entity": "Company Y",
+        "sector": "",
+        "sub_sector": "",
+        "fiscal_year": 2020,
+        "date": "2020-12-31",
+        "currency": "EUR",
+        "balance_sheet": {
+          "non_current_liabilities": 202921000000,
+          "deferred_tax_liabilities": 4890000000,
+          "other_current_financial_liabilities": 88648000000,
+          "equity": 128783000000
+        },
+        "balance_sheet_prev": {
+          "non_current_liabilities": 196497000000,
+          "deferred_tax_liabilities": 5007000000,
+          "other_current_financial_liabilities": 87912000000,
+          "equity": 123651000000
+        },
+        "finance_income": 793000000,
+        "finance_costs": 2291000000,
+        "income_tax_expense_continuing_operations": 2843000000,
+        "profit_loss": 8824000000,
+        "wacc": 0.029563,
+        "wacc_equity": null,
+        "weighted_average_shares": 501295300,
+        "share_price": 152.42
+      }
+    ]
+	},
+	"200": {
+    "status": 200,
+    "success": true,
+    "message": "",
+    "meta": {
+      "product_id": "1.131",
+      "name": "Value Ratios API - Demo",
+      "description": "Value-based enterprise performance determination of listed and unlisted companies based on an input-based API calculation engine. Value-based ratios such as Value Added, Value Rate and Value Performance-Ratio identify and determine value performance of listed and unlisted companies.",
+      "vendor": "Qumundo e.K.",
+			"info": "Demo mode! Do not use in active environment!"
+    },
+    "data": [
+      {
+        "success": true,
+        "message": "",
+        "id": "",
+        "id_type": "",
+        "legal_entity": "Company X",
+        "fiscal_year": 2020,
+				"date": "2020-12-31",
+				"currency": "EUR",
+        "value_added": -610124273,
+        "value_added_per_share": -0.926,
+        "value_rate": -0.0033,
+        "price_value_ratio": -78.1079,
+        "share_price_value_return": -0.0128,
+        "value_rate_price_return_ratio": -0.2548,
+        "value_performance_ratio": 0,
+        "value_added_ebit_ratio": -0.1097,
+        "value_earnings_per_share_ratio": -0.1582,
+        "price_value_earnings_ratio": -6.3217
+      },
+      {
+        "success": true,
+        "message": "",
+        "id": "",
+        "id_type": "",
+        "legal_entity": "Company Y",
+        "fiscal_year": 2020,
+				"date": "2020-12-31",
+				"currency": "EUR",
+        "value_added": 1066120527.5,
+        "value_added_per_share": 2.1267,
+        "value_rate": 0.0026,
+        "price_value_ratio": 71.6687,
+        "share_price_value_return": 0.014,
+        "value_rate_price_return_ratio": 0.1867,
+        "value_performance_ratio": 0,
+        "value_added_ebit_ratio": 0.081,
+        "value_earnings_per_share_ratio": 0.1208,
+        "price_value_earnings_ratio": 8.2767
+      }
+    ]
+	}
+}
