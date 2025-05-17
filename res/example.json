@@ -69,7 +69,7 @@
     "message": "",
     "meta": {
       "product_id": "1.131",
-      "name": "Value Ratios API",
+      "name": "Value Ratios API - Demo",
       "description": "Value-based enterprise performance determination of listed and unlisted companies based on an input-based API calculation engine. Value-based ratios such as Value Added, Value Rate and Value Performance-Ratio identify and determine value performance of listed and unlisted companies.",
       "vendor": "Qumundo e.K.",
 			"info": "Demo mode! Do not use in active environment!"
