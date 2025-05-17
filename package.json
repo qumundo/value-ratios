@@ -1,6 +1,6 @@
 {
   "name": "@qumundo/value-ratios",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Value-based enterprise performance determination of listed and unlisted companies based on an input-based API calculation engine.",
   "homepage": "https://github.com/qumundo/value-ratios",
   "author": {
